@@ -28,14 +28,6 @@ body {
 	left: 50%;
 	width: 480px;
 	height: 525px;
-	transform: translateX(0px);
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	-o-transform: translateX(0px);
-	transition: all 0.4s ease 0s;
-	-moz-transition: all 0.4s ease 0s;
-	-webkit-transition: all 0.4s ease 0s;
-	-o-transition: all 0.4s ease 0s;
 }
 
 .container.opened {
@@ -289,10 +281,6 @@ li {
 .card-started .profile {
 	font-size: 16px;
 	color: #171717;
-	transition: all 0.3s ease 0s;
-	-moz-transition: all 0.3s ease 0s;
-	-webkit-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
 }
 
 .card-started .profile a:hover {
@@ -353,8 +341,4 @@ li {
 	background: #50a3a2;
 	background: -webkit-linear-gradient(top left, #48b1bf 0%, #0856c1 100%);
 	background: linear-gradient(to bottom right, #48b1bf 0%, #0856c1 100%);
-}
-
-.social {
-    filter: brightness(200%) grayscale(100%);
 }
