@@ -1,0 +1,6 @@
+* text=auto
+*.css=text
+*.html=text
+*.jpg=binary
+*.md=text
+*.png=binary
