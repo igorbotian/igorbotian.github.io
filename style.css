@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-	margin: -300px 0 0 0;
+	margin: -300px 0 0 -220px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -30,26 +30,11 @@ body {
 	height: 525px;
 }
 
-.container.opened {
-	transform: translateX(-240px);
-	-webkit-transform: translateX(-240px);
-	-moz-transform: translateX(-240px);
-	-o-transform: translateX(-240px);
-}
-
 @media (max-width: 1072px) {
 	.container {
 		margin: -300px 0 0 -220px;
 		width: 440px;
 	}
-
-	.container.opened {
-		transform: translateX(-204px);
-		-webkit-transform: translateX(-204px);
-		-moz-transform: translateX(-204px);
-		-o-transform: translateX(-204px);
-	}
-
 }
 
 @media (max-width: 1023px) {
