@@ -327,3 +327,7 @@ li {
 	background: -webkit-linear-gradient(top left, #48b1bf 0%, #0856c1 100%);
 	background: linear-gradient(to bottom right, #48b1bf 0%, #0856c1 100%);
 }
+
+.social:hover {
+    filter: brightness(50%);
+}
