@@ -292,14 +292,6 @@ li {
 		padding: 135px 25px 25px 25px;
 	}
 
-	.card-started .profile.no-photo {
-		padding-top: 250px;
-	}
-
-	.card-started .profile .slide {
-		height: 200px;
-	}
-
 	.card-started .profile .image {
 		margin: 0 0 15px 0;
 		width: 124px;
